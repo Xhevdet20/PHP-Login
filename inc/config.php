@@ -7,3 +7,9 @@ if (!defined('__CONFIG__')) {
 
 
 // Our config is below
+
+
+// Include the DB.php file:
+include_once "inc/classes/DB.php";
+
+$con = DB::getConnection();
